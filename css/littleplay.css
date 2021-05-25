@@ -1,0 +1,71 @@
+.banner,.bannerAllPic {
+	position:relative
+}
+.banner {
+	width:520px;
+	height:200px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#fff
+}
+.tmall-lb .banner .bannerAllPic .littlea {
+	float:left;
+	width:127px;
+	height:57px;
+	text-align:center;
+	border:0;
+	padding:5px 0;
+	border-right:1px solid #ebebeb;
+	border-bottom:1px solid #ebebeb;
+	overflow:hidden
+}
+.banner a {
+	margin-top:6px;
+	width:251px;
+	height:190px;
+	overflow:hidden
+}
+.littlerule {
+	width:84px;
+	height:42px
+}
+.ruleyiwuwu {
+	width:250px;
+	height:155px
+}
+.rule {
+	width:250px;
+	height:190px
+}
+.bannerAllPic li {
+	width:520px;
+	height:200px;
+	box-sizing:inherit;
+	padding:6px
+}
+.bannerAllPic>li {
+	float:left
+}
+.arrow a {
+	width:30px;
+	height:50px;
+	background:rgba(0,0,0,.4);
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	text-align:center;
+	line-height:50px;
+	color:#fff;
+	font-size:20px;
+	font-family:'宋体';
+	display:none
+}
+.banner:hover .arrow a {
+	display:block
+}
+.aLeft {
+	left:0
+}
+.aRight {
+	right:0
+}

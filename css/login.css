@@ -1,0 +1,289 @@
+.logo-in,.logo-r {
+	display:block
+}
+.form-tb,.icon-user,.logo-r i,.poptip-arrow em {
+	font-style:normal
+}
+.logo-r i,.redse,.tb-footer-ft span a {
+	vertical-align:middle
+}
+.content-layout,.logo {
+	overflow:hidden;
+	margin:0 auto
+}
+* {
+	box-sizing:border-box
+}
+.header {
+	padding:22px 0;
+	height:88px
+}
+.logo {
+	width:1200px
+}
+.fl {
+	float:left
+}
+.fr {
+	float:right
+}
+.logo a img {
+	width:110px;
+	height:54px
+}
+.logo-r {
+	line-height:44px;
+	color:#666;
+	font-size:12px;
+	text-decoration:none
+}
+.logo-r i,.logo-r:hover {
+	color:#f40
+}
+.logo-r i {
+	font-size:16px
+}
+.login-newbg {
+	background:url(../upload/登录页面中间图片.jpg) 50% no-repeat;
+	height:600px;
+	background-size:cover;
+	width:100%
+}
+.content-layout {
+	width:1200px;
+	position:relative;
+	height:600px;
+	z-index:2
+}
+.login-box-warp {
+	position:absolute;
+	top:120px;
+	right:60px;
+	width:350px
+}
+.container,.fm-field,.poptip {
+	position:relative
+}
+.container {
+	width:350px;
+	min-height:350px;
+	padding:25px 25px 23px;
+	color:#6c6c6c;
+	background:#fff;
+	margin:0 auto
+}
+.login-tip {
+	top:5px;
+	right:58px;
+	position:absolute
+}
+.icon-qrcode {
+	position:absolute;
+	right:5px;
+	top:2px;
+	font-size:52px;
+	line-height:52px;
+	cursor:pointer;
+	color:#f40
+}
+.poptip-arrow,.poptip-arrow em {
+	line-height:16px;
+	position:absolute
+}
+.icon-qrcode::before {
+	content:"\e501"
+}
+.corner-icon-view {
+	position:static;
+	height:0;
+	width:100%;
+	margin:0 auto
+}
+.poptip {
+	border:1px solid #f3d995;
+	background:#fefcee;
+	line-height:16px;
+	z-index:9999;
+	padding:5px 10px
+}
+.poptip-arrow em,.poptip-arrow span {
+	border-width:6px 0 6px 6px;
+	width:0;
+	height:0;
+	border-color:hsla(0,0%,100%,0);
+	border-style:solid;
+	top:0;
+	overflow:hidden
+}
+.poptip-arrow em {
+	left:1px;
+	font-weight:400
+}
+.poptip-arrow em::after::before {
+	-webkit-tap-highlight-color:transparent
+}
+.poptip-arrow span {
+	position:absolute;
+	left:0;
+	color:#6c6c6c
+}
+.poptip-arrow span::after::before {
+	-webkit-tap-highlight-color:transparent
+}
+.poptip-content {
+	color:#ff9000;
+	font-size:12px;
+	font-weight:400
+}
+.poptip-arrow {
+	z-index:10;
+	top:8px;
+	right:0
+}
+.login-blocks {
+	text-align:left;
+	margin:8px 0 20px;
+	zoom:1
+}
+.password-login-tab-item,.sms-login-tab-item {
+	height:18px;
+	line-height:5px;
+	color:#3c3c3c;
+	margin:9px 10px 0 0;
+	font-weight:700;
+	font-size:16px;
+	display:inline-block
+}
+.password-login-tab-item {
+	border-bottom:2px solid #000
+}
+.bluese,.form-tb,.redse {
+	margin-right:3px
+}
+.fm-field {
+	margin-bottom:20px;
+	font-size:14px
+}
+.fm-label-icon {
+	width:40px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	color:#fff;
+	background-color:#ccc
+}
+.icon-user {
+	font-size:24px!important
+}
+.user {
+	width:260px;
+	height:40px;
+	outline-style:none;
+	text-indent:3px
+}
+.fm-button {
+	background:#f40;
+	font-size:16px;
+	height:42px;
+	line-height:42px;
+	outline:0;
+	color:#fff;
+	width:100%;
+	cursor:pointer;
+	border:1px solid #ff9000;
+	border-radius:3px
+}
+.form-tb {
+	color:#6c6c6c;
+	font-size:12px
+}
+.redse {
+	color:#e52425;
+	font-size:16px
+}
+.bluese {
+	color:#1ba9ee
+}
+.form-ft {
+	color:#6c6c6c;
+	font-size:12px;
+	display:inline-block;
+	margin-left:10px
+}
+.textfr {
+	text-align:right
+}
+.footer {
+	min-height:150px
+}
+.tb-footer {
+	min-height:170px;
+	width:100%!important;
+	max-width:100%!important;
+	margin-top:19px;
+	padding-bottom:9px;
+	background-color:#fff;
+	font-size:12px
+}
+.tb-footer-bd,.tb-footer-ft,.tb-footer-hd {
+	width:1190px;
+	max-width:100%
+}
+.tb-footer-hd {
+	padding-top:7px;
+	border-top:1px solid #ddd;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:12px
+}
+.tb-footer-hd-font-size {
+	margin-bottom:8px;
+	line-height:27px;
+	border-bottom:1px solid #ddd;
+	padding-bottom:8px;
+	overflow:hidden
+}
+.tb-footer span {
+	margin:0 4px;
+	color:#9c9c9c
+}
+.tb-footer span a {
+	color:#9c9c9c
+}
+.tb-footer span a:hover {
+	color:#f40
+}
+.tb-footer p b {
+	color:#9c9c9c!important
+}
+.tb-footer-bd {
+	margin-left:auto;
+	margin-right:auto
+}
+.tb-footer-bd span {
+	margin:0 4px;
+	color:#9c9c9c
+}
+.tb-footer-bd a {
+	white-space:nowrap;
+	color:#6c6c6c;
+	text-decoration:none
+}
+.tb-footer-ft {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px
+}
+.tb-footer-ft span {
+	margin:0 4px
+}
+.tb-footer-ft span a {
+	background:url(../img/footer精灵图.jpg) no-repeat;
+	margin-right:15px;
+	height:40px;
+	display:inline-block
+}
+a{
+	color: #fff;
+	outline: none;
+}
