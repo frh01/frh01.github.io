@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>购物车|淘宝网</title>
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/car.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/car.js"></script>
+    <link rel="stylesheet" href="css/font.css">
+</head>
+
+<body>
+    <!-- 导航开始 -->
+    <div class="nav">
+        <div class="nav_in">
+            <div class="nav_left">
+                <!-- 登录开始 -->
+                <div class="login">
+                    <a href="login.html" class="login_in" target="_blank">亲, 请登录</a>
+                    <a href="javascript:;" class="register">免费注册</a>
+                    <a href="javascript:;" class="phoneTaobao">手机逛淘宝</a>
+                </div>
+            </div>
+            <!-- 导航右边开始 -->
+            <ul class="nav_right">
+                <li class="nav_zero">
+                    <a href="index.html" class="ju">淘宝首页 </a>
+                    <div class="xx">ˇ</div>
+                </li>
+                <li class="right-first">
+                    <a href="javascript:;">我的淘宝 </a>
+                    <div class="xx">ˇ</div>
+                </li>
+                <li class="right-second">
+                    <a href="javascript:;"><span class="iconfont cheche">&#xe613;</span> 购物车</a>
+                    <div class="xx">ˇ</div>
+                </li>
+                <li class="right-third">
+                    <a href="javascript:;"><b class="iconfont">&#xe76b;</b> 收藏夹</a>
+                    <div class="xx">ˇ</div>
+                </li>
+                <li class="right-fourthly"><a href="javascript:;">商品分类</a></li>
+                <li class="partition">|</li>
+                <li class="right-fifth">
+                    <a href="javascript:;">千牛卖家中心</a>
+                    <div class="xx">ˇ</div>
+                </li>
+                <li class="right-sixth">
+                    <a href="javascript:;">联系客服</a>
+                    <div class="xx">ˇ</div>
+                </li>
+                <li class="right-seventh">
+                    <a href="javascript:;"> <b>≡</b> 网站导航 </a>
+                    <div class="xx">ˇ</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- logo部分 -->
+    <div class="car-header">
+        <div class="w">
+            <div class="car-logo">
+                <img src="img/logo.png" alt=""> <b>购物车</b>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="c-container">
+        <div class="w">
+            <div class="cart-filter-bar">
+                <em>全部商品</em>
+            </div>
+            <!-- 购物车主要核心区域 -->
+            <div class="cart-warp">
+                <!-- 头部全选模块 -->
+                <div class="cart-thead">
+                    <div class="t-checkbox">
+                        <input type="checkbox" name="" id="" class="checkall"> 全选
+                    </div>
+                    <div class="t-goods">商品</div>
+                    <div class="t-price">单价</div>
+                    <div class="t-num">数量</div>
+                    <div class="t-sum">小计</div>
+                    <div class="t-action">操作</div>
+                </div>
+                <!-- 商品详细模块 -->
+                <div class="cart-item-list">
+                    <div class="cart-item check-cart-item">
+                        <div class="p-checkbox">
+                            <input type="checkbox" name="" id="" checked class="j-checkbox">
+                        </div>
+                        <div class="p-goods">
+                            <div class="p-img">
+                                <img src="upload/p1.jpg" alt="">
+                            </div>
+                            <div class="p-msg">【5本26.8元】经典儿童文学彩图青少版八十天环游地球中学生语文教学大纲</div>
+                        </div>
+                        <div class="p-price">￥12.60</div>
+                        <div class="p-num">
+                            <div class="quantity-form">
+                                <a href="javascript:;" class="decrement">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                        <div class="p-sum">￥12.60</div>
+                        <div class="p-action"><a href="javascript:;">删除</a></div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="p-checkbox">
+                            <input type="checkbox" name="" id="" class="j-checkbox">
+                        </div>
+                        <div class="p-goods">
+                            <div class="p-img">
+                                <img src="upload/p2.jpg" alt="">
+                            </div>
+                            <div class="p-msg">【2000张贴纸】贴纸书 3-6岁 贴画儿童 贴画书全套12册 贴画 贴纸儿童 汽</div>
+                        </div>
+                        <div class="p-price">￥24.80</div>
+                        <div class="p-num">
+                            <div class="quantity-form">
+                                <a href="javascript:;" class="decrement">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                        <div class="p-sum">￥24.80</div>
+                        <div class="p-action"><a href="javascript:;">删除</a></div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="p-checkbox">
+                            <input type="checkbox" name="" id="" class="j-checkbox">
+                        </div>
+                        <div class="p-goods">
+                            <div class="p-img">
+                                <img src="upload/p3.jpg" alt="">
+                            </div>
+                            <div class="p-msg">唐诗三百首+成语故事全2册 一年级课外书 精装注音儿童版 小学生二三年级课外阅读书籍</div>
+                        </div>
+                        <div class="p-price">￥29.80</div>
+                        <div class="p-num">
+                            <div class="quantity-form">
+                                <a href="javascript:;" class="decrement">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                        <div class="p-sum">￥29.80</div>
+                        <div class="p-action"><a href="javascript:;">删除</a></div>
+                    </div>
+                </div>
+
+                <!-- 结算模块 -->
+                <div class="cart-floatbar">
+                    <div class="select-all">
+                        <input type="checkbox" name="" id="" class="checkall">全选
+                    </div>
+                    <div class="operation">
+                        <a href="javascript:;" class="remove-batch"> 删除选中的商品</a>
+                        <a href="javascript:;" class="clear-all">清理购物车</a>
+                    </div>
+                    <div class="toolbar-right">
+                        <div class="amount-sum">已经选<em>1</em>件商品</div>
+                        <div class="price-sum">总价： <em>￥12.60</em></div>
+                        <div class="btn-area">去结算</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- foot -->
+    <div class="ft-nav">
+        <div class="ft-nav-in">
+            <div class="ft-nav-module">
+                <div class="ft-nav-module-in">
+                    <h4 class="ft-nav-module-title">
+                        <i class="iconfont ft-nav-one">&#xf0030;</i>
+                        <span class="ft-nav-tite">消费者保障</span>
+                    </h4>
+                    <ul>
+                        <li><a href="javascript:;">保障范围</a></li>
+                        <li><a href="javascript:;">退货退款流程</a></li>
+                        <li><a href="javascript:;">服务中心</a></li>
+                        <li><a href="javascript:;">更多特色服务</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="ft-nav-module">
+                <div class="ft-nav-module-in">
+                    <h4 class="ft-nav-module-title">
+                        <i class="iconfont ft-nav-one">&#xe642;</i>
+                        <span class="ft-nav-tite">新手上路</span>
+                    </h4>
+                    <ul>
+                        <li><a href="javascript:;">新手专区</a></li>
+                        <li><a href="javascript:;">消费警示</a></li>
+                        <li><a href="javascript:;">交易安全</a></li>
+                        <li><a href="javascript:;">24小时在线帮助</a></li>
+                        <li><a href="javascript:;">免费开店</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="ft-nav-module">
+                <div class="ft-nav-module-in">
+                    <h4 class="ft-nav-module-title">
+                        <i class="iconfont ft-nav-one">&#xf0032;</i>
+                        <span class="ft-nav-tite">付款方式</span>
+                    </h4>
+                    <ul>
+                        <li><a href="javascript:;">快捷支付</a></li>
+                        <li><a href="javascript:;">信用卡</a></li>
+                        <li><a href="javascript:;">余额宝</a></li>
+                        <li><a href="javascript:;">蚂蚁花呗</a></li>
+                        <li><a href="javascript:;">货到付款</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ft-nav-module">
+                <div class="ft-nav-module-in">
+                    <h4 class="ft-nav-module-title">
+                        <i class="iconfont ft-nav-one">&#xf0033;</i>
+                        <span class="ft-nav-tite">淘宝特色</span>
+                    </h4>
+                    <ul>
+                        <li><a href="javascript:;">手机淘宝</a></li>
+                        <li><a href="javascript:;">旺旺/旺信</a></li>
+                        <li><a href="javascript:;">大众评审</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部开始 -->
+    <div class="footer">
+        <div class="tb-footer">
+            <div class="tb-footer-hd">
+                <p class="tb-footer-hd-font-size">
+                    <span><a href="javascript:;">阿里巴巴集团</a></span>
+                    <b>|</b>
+                    <span><a href="javascript:;">淘宝网</a></span>
+                    <b>|</b>
+                    <span><a href="javascript:;">天猫</a></span>
+                    <b>|</b>
+
+
+                    <span><a href="javascript:;">聚划算</a></span>
+                    <b>|</b>
+                    <span><a href="javascript:;">全球速卖通</a></span>
+                    <b>|</b>
+                    <span><a href="javascript:;">阿里巴巴国际交易市场</a></span>
+                    <b>|</b>
+                    <span><a href="javascript:;">1688</a></span>
+                    <b>|</b>
+                    <span><a href="javascript:;">阿里妈妈</a></span>
+                    <b>|</b>
+                    <span><a href="javascript:;">飞猪</a></span><b>|</b>
+                    <span><a href="javascript:;">淘小铺</a></span><b>|</b>
+                    <span><a href="javascript:;">阿里云计算</a></span><b>|</b>
+                    <span><a href="javascript:;">AliOS</a></span><b>|</b>
+                    <span><a href="javascript:;">阿里通信</a></span><b>|</b>
+                    <span><a href="javascript:;">一淘</a></span><b>|</b>
+                    <span><a href="javascript:;">万网</a></span><b>|</b>
+                    <span><a href="javascript:;">高德</a></span><b>|</b>
+                    <span><a href="javascript:;">UC</a></span><b>|</b>
+                    <span><a href="javascript:;">友盟</a></span><b>|</b>
+                    <span><a href="javascript:;">阿里安全</a></span><b>|</b><br>
+                    <span><a href="javascript:;">虾米</a></span><b>|</b>
+                    <span><a href="javascript:;">大麦网</a></span><b>|</b>
+                    <span><a href="javascript:;">钉钉</a></span><b>|</b>
+                    <span><a href="javascript:;">支付宝</a></span><b>|</b>
+                    <span><a href="javascript:;">优酷</a></span><b>|</b>
+                    <span><a href="javascript:;">土豆</a></span><b>|</b>
+                    <span><a href="javascript:;">阿里健康</a></span><b>|</b>
+                    <span><a href="javascript:;">阿里影业</a></span><b>|</b>
+                    <span><a href="javascript:;">阿里体育</a></span><b>|</b>
+                    <span><a href="javascript:;">网商银行</a></span><b>|</b>
+                </p>
+            </div>
+            <div class="tb-footer-bd">
+                <p>
+                    <span><a href="javascript:;">关于淘宝</a></span>
+                    <span><a href="javascript:;">合作伙伴</a></span>
+                    <span><a href="javascript:;">营销中心</a></span>
+                    <span><a href="javascript:;">廉正举报</a></span>
+                    <span><a href="javascript:;">联系客服</a></span>
+                    <span><a href="javascript:;">开放平台</a></span>
+                    <span><a href="javascript:;">诚征英才</a></span>
+                    <span><a href="javascript:;">联系我们</a></span>
+                    <span><a href="javascript:;">网站地图</a></span>
+                    <span><a href="javascript:;">隐私权政策</a></span>
+                    <span><a href="javascript:;">法律声明</a></span>
+                    <span><a href="javascript:;">知识产权</a></span>
+                </p>
+            </div>
+            <div class="tb-footer-ft">
+                <span>
+                    <a href="javascript:;" style="background-position:-140px 0px;width:83px;"></a>
+                </span>
+                <span>
+                    <a href="javascript:;"
+                        style="background-position:0px -18px; width:250px;background-image:url(img/footer-举报.png) "></a>
+                </span>
+                <span>
+                    <a href="javascript:;" style="background-position:-650px 0px;width:105px;"></a>
+                </span>
+                <span>
+                    <a href="javascript:;" style="background-position:-345px 0px;width:82px;"></a>
+                </span>
+                <span>
+                    <a href="javascript:;" style="background-position:-761px 0px;width:97px;"></a>
+                </span>
+                <span>
+                    <a href="javascript:;" style="background-position:-884px 0px;width: 249px;"></a>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
